@@ -7,6 +7,6 @@ Next Jaccard and Signature similarity are computed which are used as input measu
 
 The code can be used with the json file containing the data of all televisions.
 The code must be run in order as functions are created from top to bottom.
-To adjust the number of bands the value of 50 in the folloeing statement can be adjusted: all_bands = np.vsplit(signature_matrix,50)
-Additionally, the threshold for classification is changed manually, currently set at 0.9
+To adjust the number of bands the value of 50 in the following statement can be adjusted: all_bands = np.vsplit(signature_matrix,50)
+Additionally, the threshold for classification is changed manually, currently set at 0.9.
 
