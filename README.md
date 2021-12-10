@@ -10,3 +10,7 @@ The code must be run in order as functions are created from top to bottom.
 To adjust the number of bands the value of 50 in the following statement can be adjusted: all_bands = np.vsplit(signature_matrix,50)
 Additionally, the threshold for classification is changed manually, currently set at 0.9.
 
+Note: there is a bug in the code following the creation of the signature matrix. That is, the number of duplicates found by LSH remains the same 
+irrespective of the number of bands used. This causes a significant problem in the evaluation and comparison of the results for LSH and also
+classification.
+
